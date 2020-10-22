@@ -16100,5 +16100,34 @@ body header .decoration {
   bottom: 0;
   width: 100%;
 }
+body .white1 {
+  background-image: url("../../../public/images/main_bg.jpg");
+}
+body .white1 .white2corner {
+  margin: 0 5%;
+}
+body .white1 .white2corner .about .titlecorner {
+  width: 100%;
+}
+body .white1 .white2corner .about .paragraph {
+  width: 50%;
+  text-align: center;
+}
+body .our {
+  width: 50%;
+  font-family: "courgette", cursive;
+  height: 120px;
+  background-image: url("../../../public/images/decoration_line.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-position-y: 60%;
+}
+body .our h1 {
+  vertical-align: text-top;
+}
+body .our h1 span {
+  color: #C42D40;
+  font-size: 1.3em;
+}
 
 /*# sourceMappingURL=app.css.map */

@@ -106,5 +106,41 @@ body {
             width: 100%;
         }
     }
+    .white1 {
+        background-image: url("../../../public/images/main_bg.jpg");
+        // background-color: transparent;
+        .white2corner {
+            margin: 0 5%;
+            .about {
+                .titlecorner {
+                    width: 100%;
+                }
+                .paragraph {
+                    width: 50%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+    .our {
+        width: 50%;
+        font-family: $courgette;
+        height: 120px;
+        background-image: url("../../../public/images/decoration_line.png");
+        background-repeat: no-repeat;
+        background-position: bottom center;
+        background-position-y: 60%;
+        h1 {
+            vertical-align: text-top;
+            span {
+                color: $danger;
+                font-size: 1.3em;
+            }
+        }
+        
+    }
+
+    
+    
 
 }
