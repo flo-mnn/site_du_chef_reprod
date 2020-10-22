@@ -1,1 +1,25 @@
 @import "./responsive";
+body {
+    header {
+        height: 100vh;
+        background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("../../../public/images/banner1.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        nav {
+            
+            .navbar-nav {
+                flex:1;
+                display: flex;
+                justify-content: space-between;
+                .nav-link {
+                    text-transform: uppercase;
+                    // padding: auto 30px;
+                    &:hover {
+                        background-color: $danger;
+                    }
+                }
+            }
+        }
+    }
+
+}
