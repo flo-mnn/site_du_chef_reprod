@@ -139,6 +139,39 @@ body {
         }
         
     }
+    .menu {
+        .row {
+            .col-2 {
+                .list-group {
+                    a {
+                        font-family: $courgette;
+                        display: flex;
+                        flex-direction: column-reverse;
+                        align-items: center;
+                        justify-content:center;
+                        span {
+                            font-size: x-large;
+                        }
+                    }
+                    .active {
+                        position: relative;
+                    
+                        &::after {
+                            position: absolute;
+                            content: "";
+                            background-color: $danger;
+                            width: 4px;
+                            bottom: 0;
+                            height: 100%;
+                            right: 0
+                        }
+                    }
+                }
+            }
+            
+            
+        }
+    }
 
     
     

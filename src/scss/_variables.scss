@@ -11,3 +11,8 @@ $danger:        #C42D40;
 $courgette : 'courgette',cursive;
 $lato : 'lato',sans-serif;
 
+// list item active
+$list-group-hover-bg: white;
+$list-group-active-color: $danger;
+$list-group-active-bg:              white;
+$list-group-active-border-color: $danger;

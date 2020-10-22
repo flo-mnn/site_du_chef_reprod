@@ -11091,7 +11091,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   z-index: 1;
   color: #495057;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: white;
 }
 .list-group-item-action:active {
   color: #212529;
@@ -11120,9 +11120,9 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  color: #C42D40;
+  background-color: white;
+  border-color: #C42D40;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -16128,6 +16128,28 @@ body .our h1 {
 body .our h1 span {
   color: #C42D40;
   font-size: 1.3em;
+}
+body .menu .row .col-2 .list-group a {
+  font-family: "courgette", cursive;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  justify-content: center;
+}
+body .menu .row .col-2 .list-group a span {
+  font-size: x-large;
+}
+body .menu .row .col-2 .list-group .active {
+  position: relative;
+}
+body .menu .row .col-2 .list-group .active::after {
+  position: absolute;
+  content: "";
+  background-color: #C42D40;
+  width: 4px;
+  bottom: 0;
+  height: 100%;
+  right: 0;
 }
 
 /*# sourceMappingURL=app.css.map */
