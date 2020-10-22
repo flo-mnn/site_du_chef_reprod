@@ -1,24 +1,109 @@
 @import "./responsive";
 body {
+    font-family: $lato;
     header {
+        // display: flex;
+        // flex-direction: column;
+        // align-items: center;
+        // justify-content: space-between;
         height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.8)),url("../../../public/images/banner1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
+        position: relative;
         nav {
             
             .navbar-nav {
                 flex:1;
                 display: flex;
                 justify-content: space-between;
+                align-items: center;
+                text-align: center;
                 .nav-link {
                     text-transform: uppercase;
                     // padding: auto 30px;
                     &:hover {
                         background-color: $danger;
                     }
+
                 }
             }
+        }
+        #carouselExampleIndicators {
+            .carousel-indicators {
+                
+                li {
+                    border: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    align-items: center;
+                    justify-content: center;
+                    display: flex;
+                
+                }
+
+                .active {
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    width: 15px;
+                    height: 15px;
+                    border: white solid 2px;
+                    background-color: transparent;
+                    padding: 0;
+                    margin: 0;
+                    .innerIndic {
+                        padding: 0;
+                        margin: 0;
+                        border-radius: 50%;
+                        width: 9px;
+                        height: 9px;
+                        background-color: white;
+
+                    }
+                }
+            
+             }
+            .carousel-inner {
+                .carousel-item {
+                    .inCarousel {
+                        width: 50%;
+                        height: 60vh;
+                        margin-bottom: 15vh;
+                        .text {
+                            h1 {
+                                font-family: $courgette;
+                                font-size: 3vw;
+                                text-align: center;
+                                line-height: 1.6;
+                                span {
+                                    font-size: 4vw;
+                                    em {
+                                        font-style: normal;
+                                        color: $danger
+                                    }
+                                }
+
+                            }
+                        }
+                        .boutons {
+                            margin-top: 3vh;
+                        }
+                    }
+
+                }
+            }
+           
+        }
+        .decoration {
+            position: absolute;
+            background-image: url("../../../public/images/bottom_decoration_img.png");
+            background-repeat: repeat-x;
+            background-position: bottom;
+            height: 20px;
+            bottom: 0;
+            width: 100%;
         }
     }
 

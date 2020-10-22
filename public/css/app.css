@@ -16022,22 +16022,83 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: "lato", sans-serif;
+}
 body header {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("../../../public/images/banner1.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 body header nav .navbar-nav {
   flex: 1;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  text-align: center;
 }
 body header nav .navbar-nav .nav-link {
   text-transform: uppercase;
 }
 body header nav .navbar-nav .nav-link:hover {
   background-color: #C42D40;
+}
+body header #carouselExampleIndicators .carousel-indicators li {
+  border: 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+body header #carouselExampleIndicators .carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  border: white solid 2px;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+}
+body header #carouselExampleIndicators .carousel-indicators .active .innerIndic {
+  padding: 0;
+  margin: 0;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  background-color: white;
+}
+body header #carouselExampleIndicators .carousel-inner .carousel-item .inCarousel {
+  width: 50%;
+  height: 60vh;
+  margin-bottom: 15vh;
+}
+body header #carouselExampleIndicators .carousel-inner .carousel-item .inCarousel .text h1 {
+  font-family: "courgette", cursive;
+  font-size: 3vw;
+  text-align: center;
+  line-height: 1.6;
+}
+body header #carouselExampleIndicators .carousel-inner .carousel-item .inCarousel .text h1 span {
+  font-size: 4vw;
+}
+body header #carouselExampleIndicators .carousel-inner .carousel-item .inCarousel .text h1 span em {
+  font-style: normal;
+  color: #C42D40;
+}
+body header #carouselExampleIndicators .carousel-inner .carousel-item .inCarousel .boutons {
+  margin-top: 3vh;
+}
+body header .decoration {
+  position: absolute;
+  background-image: url("../../../public/images/bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  height: 20px;
+  bottom: 0;
+  width: 100%;
 }
 
 /*# sourceMappingURL=app.css.map */
