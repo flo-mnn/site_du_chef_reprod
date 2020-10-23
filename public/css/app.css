@@ -16121,7 +16121,6 @@ body .our {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 50%;
   font-family: "courgette", cursive;
   height: 120px;
   background-image: url("../../../public/images/decoration_line.png");
