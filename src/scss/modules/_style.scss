@@ -289,6 +289,32 @@ body {
         }
     }
     
-    
+    footer {
+        position: relative;
+        background-image: url("../../../public/images/footer_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+        .decoration {
+            position: absolute;
+            background-image: url("../../../public/images/footer_bottom_decoration_img.png");
+            background-repeat: repeat-x;
+            background-position: top;
+            height: 20px;
+            top:0;
+            width: 100%;
+        }
+        .row {
+            h1 {
+                font-size: larger;
+            }
+            p {
+                font-size: smaller;
+            }
+        }
+        .footer2 {
+            height: 80px;
+        }
+    }
 
 }

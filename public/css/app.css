@@ -16240,5 +16240,29 @@ body #contact .container {
   margin: 50px 5%;
   border-radius: 15px;
 }
+body footer {
+  position: relative;
+  background-image: url("../../../public/images/footer_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body footer .decoration {
+  position: absolute;
+  background-image: url("../../../public/images/footer_bottom_decoration_img.png");
+  background-repeat: repeat-x;
+  background-position: top;
+  height: 20px;
+  top: 0;
+  width: 100%;
+}
+body footer .row h1 {
+  font-size: larger;
+}
+body footer .row p {
+  font-size: smaller;
+}
+body footer .footer2 {
+  height: 80px;
+}
 
 /*# sourceMappingURL=app.css.map */
