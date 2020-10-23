@@ -16033,6 +16033,7 @@ body header {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
+  overflow: hidden;
 }
 body header nav .navbar-nav {
   flex: 1;
@@ -16043,6 +16044,7 @@ body header nav .navbar-nav {
 }
 body header nav .navbar-nav .nav-link {
   text-transform: uppercase;
+  flex: 1;
 }
 body header nav .navbar-nav .nav-link:hover {
   background-color: #C42D40;
@@ -16161,6 +16163,12 @@ body .menu .row .col-10 .row .col-lg-6 .ticket {
 }
 body .menu .row .col-10 .row .col-lg-6 .ticket img {
   border: solid rgba(211, 211, 211, 0.479) 5px;
+}
+body #team {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/images/team_background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 5px 5%;
 }
 
 /*# sourceMappingURL=app.css.map */
