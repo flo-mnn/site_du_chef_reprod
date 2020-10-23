@@ -16024,6 +16024,8 @@ h3 {
 }
 body {
   font-family: "lato", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 body header {
   height: 100vh;
@@ -16125,6 +16127,9 @@ body .our {
 body .our h1 span {
   color: #C42D40;
   font-size: 1.3em;
+}
+body .title {
+  height: 120px;
 }
 body .menu {
   overflow: hidden;
