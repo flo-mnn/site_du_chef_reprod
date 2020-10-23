@@ -75,7 +75,7 @@
                         <div class="cornerTopLeft">
                             <img src="./public/images/box-left-top.png" alt="" class="img-fluid">
                         </div>
-                        <div class="our text-center py-lg-5 pb-2 pt-5 mb-5">
+                        <div class="our text-center  mb-5">
                             <h1 class="m-0"><span>OUR </span>Story</h1>
                         </div>
                         <div class="cornerTopRight">
@@ -90,7 +90,7 @@
             </div>
             <div class="menu" id="menu">
                 <div class= "title mb-5">
-                <div class="our text-center py-lg-5 pb-2 pt-5 mx-auto">
+                <div class="our text-center  mx-auto">
                     <h1 class="m-0"><span>OUR </span>Menu List</h1>
                 </div>
                 </div>
@@ -542,11 +542,16 @@
         </div>
     </section>
     <section class="team" id="team">
-        <div class="d-flex justify-content-center">
-            <div class="our d-flex text-center py-lg-5 pb-2 pt-5 mb-5">
-                <h1 class="mx-auto my-0 text-white"><span>MEET </span>Our Chef</h1>
+        <div class="row">
+            <div class="col-12">
+                <div class="d-flex justify-content-center">
+                    <div class="our d-flex text-center mb-5">
+                        <h1 class="mx-auto my-0 text-white"><span>MEET </span>Our Chef</h1>
+                    </div>
+                </div>
             </div>
         </div>
+        
         <div class="row mx-0 py-lg-4 py-2">
             <div class="col-lg-3 col-md-6 col-12 d-flex">
                 <div class="chef m-auto">
@@ -574,6 +579,190 @@
             </div>
         </div>
     </section>
+    <section class="white1 py-lg-3 py-2">
+        <div class="white2corner bg-white border border-light">
+            <div class="about" id="resa">
+                <div class="corners d-flex flex-column align-items-center">
+                    <div class="title titlecorner d-flex justify-content-between">
+                        <div class="cornerTopLeft">
+                            <img src="./public/images/box-left-top-grey.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="our text-center  mb-5">
+                            <h1 class="m-0"><span>BOOK </span>Your Table</h1>
+                        </div>
+                        <div class="cornerTopRight">
+                            <img src="./public/images/box-right-top-grey.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-margin"> 
+                    <div class="query container d-flex">
+                        <div class="m-auto">
+                            <div class="text text-center mt-lg-5 mb-lg-3 my-2"><span class="text-white">For any query please call us at: <span class="bigger">+91-1234567890</span></span></div>
+                            <form action="" class="p-3">
+                                <div class="form-row">
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                    <input type="name" class="form-control"  placeholder="Maggie Smith" value="Enter Full Name" onfocus="if (this.value=='Enter Full Name') this.value='';"/>>
+                                    </div>
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                        <input type="id" class="form-control" placeholder="id" value="Enter Id" onfocus="if (this.value=='Enter Id') this.value='';"/>>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                    <input type="phone" class="form-control"  placeholder="+91-1234567890" value="Phone Number" onfocus="if (this.value=='Phone Number') this.value='';"/>>
+                                    </div>
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>No of Person</option>
+                                            <option value="">1</option>
+                                            <option value="">2</option>
+                                            <option value="">3</option>
+                                            <option value="">4</option>
+                                            <option value="">5</option>
+                                            <option value="">6</option>
+                                            <option value="">7</option>
+                                            <option value="">8</option>
+                                            <option value="">9</option>
+                                            <option value="">10</option>
+                                            <option value="">11</option>
+                                            <option value="">12</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-row mb-4">
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                    <input type="date" class="form-control">
+                                    </div>
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                        <input class="form-control" type="time" id="hour" value="12:30" name="appt" min="10:00" max="23:30" required>
+                                        <!-- <input type="id" class="form-control" placeholder="id" value="Enter Id" onfocus="if (this.value=='Enter Id') this.value='';"/>> -->
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                    
+                                    <div class="form-group col-md-6 col-12 px-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Occasion</option>
+                                            <option value="Engagement">Engagement</option>
+                                            <option value="Birthday">Birthday</option>
+                                            <option value="">Anniversary</option>
+                                            <option value="">Celebration</option>
+                                            <option value="Date Night">Date Night</option>
+                                            <option value="">Other</option>
+                                        </select>
+                                    </div>
+                                    <div class=" form-group col-md-6 col-12 px-3">
+                                        <select id="inputState" class="form-control">
+                                            <option selected>Cuisine</option>
+                                            <option value="Engagement">Traditional</option>
+                                            <option value="Birthday">French</option>
+                                            <option value="">Snacks</option>
+                                            <option value="">Brunch</option>
+                                            <option value="Date Night">Afternoon Tea</option>
+                                        </select>
+                                            
+                                    </div>
+                                </div>
+                                <div class="text-center mt-lg-5 mb-lg-2 my-2">
+
+                                    <button class="btn btn-danger rounded-pill mx-3 py-3 px-4">BOOK NOW</button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>  
+                
+            </div>
+            <div class="blog container" id="blog">
+                <div class="row">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="our text-center mb-5">
+                            <h1 class="m-0"><span>OUR </span>Blog</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row columns2">
+                    <div class="col-lg-6 col-12">
+                        <div class="sous-col m-3 d-flex flex-column justify-content-between">
+                    
+                            <div class="bg-img bg-img1 bg-danger  text-white d-flex">
+                                <p class="alert alert-danger bg-danger border-0 rounded text-white">23 October 2020/ 20 Comments/ 35 Likes</p>
+                            </div>
+                            <div class="text pt-5 text-lg-left text-center">
+                                <h6 class="font-weight-bolder">Lorem Ipsum</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, ab!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                        <div class="sous-col m-3 d-flex flex-column justify-content-between">
+                    
+                            <div class="bg-img bg-img2 bg-danger  text-white d-flex">
+                
+                                <p class="alert alert-danger bg-danger border-0 rounded text-white">23 October 2020/ 20 Comments/ 35 Likes</p>
+                            </div>
+                            <div class="text pt-5 text-lg-left text-center">
+                                <h6 class="font-weight-bolder">Lorem Ipsum</h6>
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis, ab!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="title d-flex justify-content-between w-100">
+                <div class="cornerTopLeft d-flex">
+                    <img src="./public/images/box-bottom-left-grey.png" alt=""  class="img-fluid">
+                </div>
+                <div class="text-center pb-2">
+                    <button class="btn btn-danger rounded-pill mx-3 py-3 px-4">KNOW MORE</button>
+                </div>
+                <div class="cornerTopRight d-flex">
+                    <img src="./public/images/box-bottom_right-grey.png" alt="" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="testimonials pb-5" id="testimonials">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-center my-5">
+                <div class="our text-center text-white mb-5">
+                    <h1 class="m-0"><span>CLIENT </span>Testimonials</h1>
+                </div>
+            </div>
+        </div>
+        <div class="row columns2 flex-column flex-lg-row">
+            <div class="col-lg-6 col-12 m-0 ">
+                <div class="sous-col d-flex flex-column flex-md-row justify-content-between text-white align-items-center">
+                    <div class="image mx-4">
+                        <img src="./public/images/testimonial1.jpg" alt="" class="">
+                    </div>
+                    <div class="text border border-light rounded p-3">
+                        <h6 class="text-white">Loremp Ipsum</h6>
+                        <span class="text-danger">Manager</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis nemo, iure recusandae culpa corrupti.</p>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="col-lg-6 col-12 m-0 ">
+                <div class="sous-col d-flex flex-column flex-md-row-reverse justify-content-between text-white align-items-center">
+                    <div class="image mx-4">
+                        <img src="./public/images/testimonial1.jpg" alt="" class="">
+                    </div>
+                    <div class="text border border-light rounded p-3">
+                        <h6 class="text-white">Loremp Ipsum</h6>
+                        <span class="text-danger">Manager</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reiciendis nemo, iure recusandae culpa corrupti.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+
   <!-- jquery  -->
   <script src="./node_modules/jquery/dist/jquery.min.js"></script>
   <!-- BOOTSTRAP -->

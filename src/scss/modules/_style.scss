@@ -129,13 +129,16 @@ body {
         }
     }
     .our {
+        display: flex;
+        align-items: center;
+        justify-content: center;
         width: 50%;
         font-family: $courgette;
         height: 120px;
         background-image: url("../../../public/images/decoration_line.png");
         background-repeat: no-repeat;
         background-position: bottom;
-        background-position-y: 100%;
+        background-position-y: 80%;
         h1 {
             span {
                 color: $danger;
@@ -201,7 +204,82 @@ body {
         background-repeat: no-repeat;
         padding: 5px 5%;
     }
+    .white1 {
+        .about {
+            .bg-margin {
+                display: flex;
+                justify-content: center;
+                .query {
+                    width: 70%;
+                    margin: 50px 0;
+                    border-radius: 15px;
+                    display: flex;
+                    background-image: url("../../../public/images/book_table_bg.jpg");
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    // height: 500px;
+                    .bigger {
+                        font-size: x-large;
+                    }
+                    form {
+                        input,select {
+                            border-radius: 15px;
+                        }
+                        
+                    }
 
+                    
+                }
+            }
+        }
+        .blog {
+            width: 90%;
+            .columns2 {
+                .col-lg-6 {
+                    .bg-img {
+                        background-repeat: no-repeat;
+                        // background-size: cover;
+                        background-position: left center;
+                        background-size: cover;
+                        height: 250px;
+                        width: 100%;
+                        position: relative;
+                        border:#E1E0E0 solid 4px;
+                        border-radius: 15px;
+                        .alert {
+                            position: absolute;
+                            width: 90%;
+                            top: 90%;
+                            right: 5%;
+                        }
+                        .text {
+                            width: 90%;
+                        }
+                    }
+                    .bg-img1 {
+                        background-image: url("../../../public/images/blog_img1.jpg");
+                    }
+                    .bg-img2 {
+                        background-image: url("../../../public/images/blog_img2.jpg");
+                    }
+                }
+            }
+        }
+    }
+    #testimonials {
+        background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../../public/images/testimonials_background.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        // padding: ;
+        .columns2 {
+            margin: auto 5%;
+            img {
+                height: 150px;
+                border: solid white 4px;
+                border-radius: 50%;
+            }
+        }
+    }
     
     
 

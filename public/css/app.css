@@ -16118,13 +16118,16 @@ body .white1 .white2corner .about .paragraph {
   text-align: center;
 }
 body .our {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 50%;
   font-family: "courgette", cursive;
   height: 120px;
   background-image: url("../../../public/images/decoration_line.png");
   background-repeat: no-repeat;
   background-position: bottom;
-  background-position-y: 100%;
+  background-position-y: 80%;
 }
 body .our h1 span {
   color: #C42D40;
@@ -16169,6 +16172,66 @@ body #team {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 5px 5%;
+}
+body .white1 .about .bg-margin {
+  display: flex;
+  justify-content: center;
+}
+body .white1 .about .bg-margin .query {
+  width: 70%;
+  margin: 50px 0;
+  border-radius: 15px;
+  display: flex;
+  background-image: url("../../../public/images/book_table_bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .white1 .about .bg-margin .query .bigger {
+  font-size: x-large;
+}
+body .white1 .about .bg-margin .query form input, body .white1 .about .bg-margin .query form select {
+  border-radius: 15px;
+}
+body .white1 .blog {
+  width: 90%;
+}
+body .white1 .blog .columns2 .col-lg-6 .bg-img {
+  background-repeat: no-repeat;
+  background-position: left center;
+  background-size: cover;
+  height: 250px;
+  width: 100%;
+  position: relative;
+  border: #E1E0E0 solid 4px;
+  border-radius: 15px;
+}
+body .white1 .blog .columns2 .col-lg-6 .bg-img .alert {
+  position: absolute;
+  width: 90%;
+  top: 90%;
+  right: 5%;
+}
+body .white1 .blog .columns2 .col-lg-6 .bg-img .text {
+  width: 90%;
+}
+body .white1 .blog .columns2 .col-lg-6 .bg-img1 {
+  background-image: url("../../../public/images/blog_img1.jpg");
+}
+body .white1 .blog .columns2 .col-lg-6 .bg-img2 {
+  background-image: url("../../../public/images/blog_img2.jpg");
+}
+body #testimonials {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/images/testimonials_background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body #testimonials .columns2 {
+  margin: auto 5%;
+}
+body #testimonials .columns2 img {
+  height: 150px;
+  border: solid white 4px;
+  border-radius: 50%;
 }
 
 /*# sourceMappingURL=app.css.map */
