@@ -16233,5 +16233,13 @@ body #testimonials .columns2 img {
   border: solid white 4px;
   border-radius: 50%;
 }
+body #contact {
+  background-image: url("../../../public/images/main_bg.jpg");
+}
+body #contact .container {
+  width: 30%;
+  margin: 50px 5%;
+  border-radius: 15px;
+}
 
 /*# sourceMappingURL=app.css.map */
