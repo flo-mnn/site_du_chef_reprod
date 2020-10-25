@@ -206,7 +206,30 @@ body {
         background-size: cover;
         background-repeat: no-repeat;
         padding: 5px 5%;
+        .chef-super
+            .chef {
+                
+                position: relative;
+                overflow: hidden;
+                .animation {
+                    height: 150px;
+                    position: absolute;
+                    bottom: -170px;
+                    z-index: 3;
+            
+                }
+                &:hover .animation {
+                        animation: rouge 1.5s;
+                        animation-delay: 0.2s;
+                }
+
+            }
+            .chef:hover .text {
+                    animation: disappear 0.2s;
+            }
+        }
     }
+  
     .white1 {
         .about {
             .bg-margin {
@@ -321,3 +344,23 @@ body {
     }
 
 }
+
+// Animation bonus
+@keyframes rouge {
+    from {
+       bottom: -170px;
+    }
+  
+    to {
+      bottom: 0;
+    }
+  }
+  @keyframes disappear {
+    from {
+       opacity: 1;
+    }
+  
+    to {
+      opacity: 0;
+    }
+  }
