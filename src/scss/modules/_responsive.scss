@@ -54,6 +54,36 @@
             width: 60% !important;
         }
     }
+    #carouselExampleIndicators {
+        .chefsuper {
+            margin-bottom: 100px !important;
+            .chef {
+                .image {
+                   .animation {
+                       transition-duration: 1.5s;
+                   };
+                    &:hover .animation {
+                        bottom: unset !important;
+                    }
+                    &:active .animation {
+                        bottom: 0px !important;
+                        transition-delay: 0.2s !important;
+                    }
+
+                }
+                .text {
+                    transition-duration: 0.7s;
+                }
+                &:hover .text{
+                    bottom: unset !important;
+                }
+                &:active .text {
+                    bottom: 20px !important;
+                    transition: 0.7s !important;
+                }
+            }
+        }
+    }
 
 }
 
@@ -117,14 +147,48 @@ body {
             }
         }
         #blog {
+            .alert {
+                width: 100%;
+                left: 0;
+            }
             .text {
-                margin-top: 30px;
+                margin-top: 200px;
             }
         }
     }
     #contact {
         .container {
             width: 80% !important;
+        }
+    }
+    #carouselExampleIndicators {
+        .chefsuper {
+            margin-bottom: 100px !important;
+            .chef {
+                .image {
+                   .animation {
+                       transition-duration: 1.5s;
+                   };
+                    &:hover .animation {
+                        bottom: unset !important;
+                    }
+                    &:active .animation {
+                        bottom: 0px !important;
+                        transition-delay: 0.2s !important;
+                    }
+
+                }
+                .text {
+                    transition-duration: 0.7s;
+                }
+                &:hover .text{
+                    bottom: unset !important;
+                }
+                &:active .text {
+                    bottom: 20px !important;
+                    transition: 0.7s !important;
+                }
+            }
         }
     }
 

@@ -142,10 +142,20 @@ body {
         background-repeat: no-repeat;
         background-position: bottom;
         background-position-y: 80%;
+        a {
+            text-decoration: none;
+        }
         h1 {
             span {
                 color: $danger;
                 font-size: 1.3em;
+            }
+            position: relative;
+            &:hover::after {
+                position: absolute;
+                content: "\0025B2";
+                color: $danger;
+                left: 110%;
             }
         }
         
@@ -229,7 +239,8 @@ body {
                         // animation-delay: 1s;
                         // animation-fill-mode: forwards;
                         bottom: 0px;
-                        transition-delay: 0.7s;
+                        transition-delay: 0.2s;
+                        transition: 1.5s
                     }
                 }
                 
@@ -239,7 +250,7 @@ body {
                     width: 50%;
                     height: 20px;
                     right: 25%;
-                    bottom: -10px;
+                    bottom: -30px;
                     transition: 0.7s bottom;
                 }
                 
@@ -259,6 +270,7 @@ body {
     }
   
     .white1 {
+    
         .about {
             .bg-margin {
                 display: flex;
@@ -290,6 +302,10 @@ body {
             width: 90%;
             .columns2 {
                 .col-lg-6 {
+                    .text {
+                        width: 90%;
+                        margin-top: 50px;
+                    }
                     .bg-img {
                         background-repeat: no-repeat;
                         // background-size: cover;
@@ -305,11 +321,17 @@ body {
                             width: 90%;
                             top: 90%;
                             right: 5%;
+                            span {
+                                // flex:1;
+                                em {
+                                    font-style: normal;
+                                    font-size: larger;
+                                }
+                            }
                         }
-                        .text {
-                            width: 90%;
-                        }
+                        
                     }
+                    
                     .bg-img1 {
                         background-image: url("../../../public/images/blog_img1.jpg");
                     }

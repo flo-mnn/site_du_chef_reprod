@@ -16052,6 +16052,30 @@ h3 {
   #contact .container {
     width: 60% !important;
   }
+
+  #carouselExampleIndicators .chefsuper {
+    margin-bottom: 100px !important;
+  }
+  #carouselExampleIndicators .chefsuper .chef .image .animation {
+    transition-duration: 1.5s;
+  }
+  #carouselExampleIndicators .chefsuper .chef .image:hover .animation {
+    bottom: unset !important;
+  }
+  #carouselExampleIndicators .chefsuper .chef .image:active .animation {
+    bottom: 0px !important;
+    transition-delay: 0.2s !important;
+  }
+  #carouselExampleIndicators .chefsuper .chef .text {
+    transition-duration: 0.7s;
+  }
+  #carouselExampleIndicators .chefsuper .chef:hover .text {
+    bottom: unset !important;
+  }
+  #carouselExampleIndicators .chefsuper .chef:active .text {
+    bottom: 20px !important;
+    transition: 0.7s !important;
+  }
 }
 @media screen and (min-width: 320px) and (max-width: 767px) {
   body .our {
@@ -16086,11 +16110,38 @@ h3 {
   body .white1 #resa .query {
     width: 95%;
   }
+  body .white1 #blog .alert {
+    width: 100%;
+    left: 0;
+  }
   body .white1 #blog .text {
-    margin-top: 30px;
+    margin-top: 200px;
   }
   body #contact .container {
     width: 80% !important;
+  }
+  body #carouselExampleIndicators .chefsuper {
+    margin-bottom: 100px !important;
+  }
+  body #carouselExampleIndicators .chefsuper .chef .image .animation {
+    transition-duration: 1.5s;
+  }
+  body #carouselExampleIndicators .chefsuper .chef .image:hover .animation {
+    bottom: unset !important;
+  }
+  body #carouselExampleIndicators .chefsuper .chef .image:active .animation {
+    bottom: 0px !important;
+    transition-delay: 0.2s !important;
+  }
+  body #carouselExampleIndicators .chefsuper .chef .text {
+    transition-duration: 0.7s;
+  }
+  body #carouselExampleIndicators .chefsuper .chef:hover .text {
+    bottom: unset !important;
+  }
+  body #carouselExampleIndicators .chefsuper .chef:active .text {
+    bottom: 20px !important;
+    transition: 0.7s !important;
   }
 }
 body {
@@ -16202,9 +16253,21 @@ body .our {
   background-position: bottom;
   background-position-y: 80%;
 }
+body .our a {
+  text-decoration: none;
+}
+body .our h1 {
+  position: relative;
+}
 body .our h1 span {
   color: #C42D40;
   font-size: 1.3em;
+}
+body .our h1:hover::after {
+  position: absolute;
+  content: "▲";
+  color: #C42D40;
+  left: 110%;
 }
 body .title {
   height: 120px;
@@ -16264,7 +16327,8 @@ body #team .chefsuper .chef .image .animation {
 }
 body #team .chefsuper .chef .image:hover .animation {
   bottom: 0px;
-  transition-delay: 0.7s;
+  transition-delay: 0.2s;
+  transition: 1.5s;
 }
 body #team .chefsuper .chef .text {
   text-align: center;
@@ -16272,7 +16336,7 @@ body #team .chefsuper .chef .text {
   width: 50%;
   height: 20px;
   right: 25%;
-  bottom: -10px;
+  bottom: -30px;
   transition: 0.7s bottom;
 }
 body #team .chefsuper .chef:hover .text {
@@ -16301,6 +16365,10 @@ body .white1 .about .bg-margin .query form input, body .white1 .about .bg-margin
 body .white1 .blog {
   width: 90%;
 }
+body .white1 .blog .columns2 .col-lg-6 .text {
+  width: 90%;
+  margin-top: 50px;
+}
 body .white1 .blog .columns2 .col-lg-6 .bg-img {
   background-repeat: no-repeat;
   background-position: left center;
@@ -16317,8 +16385,9 @@ body .white1 .blog .columns2 .col-lg-6 .bg-img .alert {
   top: 90%;
   right: 5%;
 }
-body .white1 .blog .columns2 .col-lg-6 .bg-img .text {
-  width: 90%;
+body .white1 .blog .columns2 .col-lg-6 .bg-img .alert span em {
+  font-style: normal;
+  font-size: larger;
 }
 body .white1 .blog .columns2 .col-lg-6 .bg-img1 {
   background-image: url("../../../public/images/blog_img1.jpg");
