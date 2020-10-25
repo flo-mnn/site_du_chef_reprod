@@ -1,0 +1,126 @@
+// @media screen and (min-width: 992px) {
+
+// }
+
+@media screen and (min-width: 768px) and (max-width: 991px){
+    header {
+        nav {
+            .navbar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .navbar-brand {
+                margin-bottom: 5px;
+            }
+        }
+        #carouselExampleIndicators {
+            .carousel-inner {
+                .carousel-item {
+                    .inCarousel {
+                        width: 80% !important;
+                        height:  70vh !important ;
+                        margin-bottom: 5vh !important;
+                        .text {
+                            h1 {
+                                font-size: 4vw !important;
+                                span {
+                                    font-size: 5.5vw !important;
+                                }
+
+                            }
+                        }
+                        .boutons {
+                            button {
+                                font-size: 2vw !important;
+                            }
+                        }
+                        
+                    }
+
+                }
+            }
+           
+        }
+    }
+    .white1 {
+        #resa {
+            .query {
+                width: 90%;
+            }
+        }
+    }
+
+
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 767px){
+body {
+    .our {
+        background-position-y: 100% !important;
+    }
+    header {
+        nav {
+            .navbar-nav {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+            .navbar-brand {
+                margin-bottom: 5px;
+            }
+        }
+        #carouselExampleIndicators {
+            
+            .carousel-inner {
+                .carousel-item {
+                    .inCarousel {
+                        width: 95% !important;
+                        height:  70vh !important ;
+                        margin-bottom: 5vh !important;
+                        .text {
+                            h1 {
+                                font-size: 6vw !important;
+                                span {
+                                    font-size: 7.5vw !important;
+                                }
+
+                            }
+                        }
+                        .boutons {
+                            display: flex;
+                            justify-content: center;
+                            
+
+                            button {
+                                font-size: 3vw !important;
+                                margin-bottom: 20px;
+                            }
+                        }
+                        
+                    }
+
+                }
+            }
+           
+        }
+    }
+    .white1 {
+        #resa {
+            .query {
+                width: 95%;
+            }
+        }
+        #blog {
+            .text {
+                margin-top: 30px;
+            }
+        }
+    }
+    // .white1 {
+    //     #about {
+            
+    //     }
+    // }
+}
+}

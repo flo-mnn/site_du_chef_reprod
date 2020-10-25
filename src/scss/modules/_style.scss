@@ -95,6 +95,9 @@ body {
                         }
                         .boutons {
                             margin-top: 3vh;
+                            button {
+                                font-size: 1vw;
+                            }
                         }
                     }
 
@@ -154,7 +157,7 @@ body {
     .menu {
         overflow: hidden;
         .row {
-            .col-2 {
+            .col-12 {
                 .list-group {
                     a {
                         font-family: $courgette;
@@ -182,7 +185,7 @@ body {
                     }
                 }
             }
-            .col-10 {
+            .col {
                 .row {
                     .col-lg-6 {
                         .ticket {
