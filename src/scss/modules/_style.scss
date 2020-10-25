@@ -214,19 +214,22 @@ body {
                 .image {
                     overflow: hidden;
                     position: relative;
+                    z-index: 3;
                     .animation {
                         height: 150px;
                         position: absolute;
                         bottom: -180px;
                         z-index: 3;
                         border-bottom: white solid 2px;
-                        transition: 1.5s;
+                        transition: 1.5s bottom;
                     }
 
                     &:hover .animation {
-                        animation: rouge 1.5s;
-                        animation-delay: 1s;
-                        animation-fill-mode: forwards;
+                        // animation: rouge 1.5s;
+                        // animation-delay: 1s;
+                        // animation-fill-mode: forwards;
+                        bottom: 0px;
+                        transition-delay: 0.7s;
                     }
                 }
                 
@@ -236,11 +239,17 @@ body {
                     width: 50%;
                     height: 20px;
                     right: 25%;
+                    bottom: -10px;
+                    transition: 0.7s bottom;
                 }
                 
                 &:hover .text {
-                    animation: disappear 1s;
-                    animation-fill-mode: forwards;
+                    // animation: disappear 1s;
+                    // animation-fill-mode: forwards;
+                    bottom: 20px;
+                    transition: 0.7s;
+
+
                 }
 
             }

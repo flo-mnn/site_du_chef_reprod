@@ -16252,6 +16252,7 @@ body #team .chefsuper {
 body #team .chefsuper .chef .image {
   overflow: hidden;
   position: relative;
+  z-index: 3;
 }
 body #team .chefsuper .chef .image .animation {
   height: 150px;
@@ -16259,12 +16260,11 @@ body #team .chefsuper .chef .image .animation {
   bottom: -180px;
   z-index: 3;
   border-bottom: white solid 2px;
-  transition: 1.5s;
+  transition: 1.5s bottom;
 }
 body #team .chefsuper .chef .image:hover .animation {
-  animation: rouge 1.5s;
-  animation-delay: 1s;
-  animation-fill-mode: forwards;
+  bottom: 0px;
+  transition-delay: 0.7s;
 }
 body #team .chefsuper .chef .text {
   text-align: center;
@@ -16272,10 +16272,12 @@ body #team .chefsuper .chef .text {
   width: 50%;
   height: 20px;
   right: 25%;
+  bottom: -10px;
+  transition: 0.7s bottom;
 }
 body #team .chefsuper .chef:hover .text {
-  animation: disappear 1s;
-  animation-fill-mode: forwards;
+  bottom: 20px;
+  transition: 0.7s;
 }
 body .white1 .about .bg-margin {
   display: flex;
