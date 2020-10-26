@@ -1,0 +1,20 @@
+#menu .tomber .fa {
+    float: right;
+    transition: .3s transform ease-in-out;
+}
+#menu .tomber .collapsed .fa {
+    transform: rotate(90deg);
+}
+
+#menu .tomber {
+    a {
+        margin-left: 10%;
+        text-align: center;
+        font-family: $courgette;
+        font-size: xx-large;
+        text-decoration: none;
+        i {
+            margin: auto 5px;
+        }
+    }
+}
