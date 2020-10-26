@@ -16053,26 +16053,26 @@ h3 {
     width: 60% !important;
   }
 
-  #carouselExampleIndicators .chefsuper {
+  #carouselExampleIndicatorsMd .chefsuper {
     margin-bottom: 100px !important;
   }
-  #carouselExampleIndicators .chefsuper .chef .image .animation {
+  #carouselExampleIndicatorsMd .chefsuper .chef .image .animation {
     transition-duration: 1.5s;
   }
-  #carouselExampleIndicators .chefsuper .chef .image:hover .animation {
+  #carouselExampleIndicatorsMd .chefsuper .chef .image:hover .animation {
     bottom: unset !important;
   }
-  #carouselExampleIndicators .chefsuper .chef .image:active .animation {
+  #carouselExampleIndicatorsMd .chefsuper .chef .image:active .animation {
     bottom: 0px !important;
     transition-delay: 0.2s !important;
   }
-  #carouselExampleIndicators .chefsuper .chef .text {
+  #carouselExampleIndicatorsMd .chefsuper .chef .text {
     transition-duration: 0.7s;
   }
-  #carouselExampleIndicators .chefsuper .chef:hover .text {
+  #carouselExampleIndicatorsMd .chefsuper .chef:hover .text {
     bottom: unset !important;
   }
-  #carouselExampleIndicators .chefsuper .chef:active .text {
+  #carouselExampleIndicatorsMd .chefsuper .chef:active .text {
     bottom: 20px !important;
     transition: 0.7s !important;
   }
@@ -16109,37 +16109,34 @@ h3 {
   }
   body .white1 #resa .query {
     width: 95%;
-  }
-  body .white1 #blog .alert {
-    width: 100%;
-    left: 0;
+    height: auto;
   }
   body .white1 #blog .text {
-    margin-top: 200px;
+    margin-top: 80px;
   }
   body #contact .container {
     width: 80% !important;
   }
-  body #carouselExampleIndicators .chefsuper {
+  body #carouselExampleIndicatorsSm .chefsuper {
     margin-bottom: 100px !important;
   }
-  body #carouselExampleIndicators .chefsuper .chef .image .animation {
+  body #carouselExampleIndicatorsSm .chefsuper .chef .image .animation {
     transition-duration: 1.5s;
   }
-  body #carouselExampleIndicators .chefsuper .chef .image:hover .animation {
+  body #carouselExampleIndicatorsSm .chefsuper .chef .image:hover .animation {
     bottom: unset !important;
   }
-  body #carouselExampleIndicators .chefsuper .chef .image:active .animation {
+  body #carouselExampleIndicatorsSm .chefsuper .chef .image:active .animation {
     bottom: 0px !important;
     transition-delay: 0.2s !important;
   }
-  body #carouselExampleIndicators .chefsuper .chef .text {
+  body #carouselExampleIndicatorsSm .chefsuper .chef .text {
     transition-duration: 0.7s;
   }
-  body #carouselExampleIndicators .chefsuper .chef:hover .text {
+  body #carouselExampleIndicatorsSm .chefsuper .chef:hover .text {
     bottom: unset !important;
   }
-  body #carouselExampleIndicators .chefsuper .chef:active .text {
+  body #carouselExampleIndicatorsSm .chefsuper .chef:active .text {
     bottom: 20px !important;
     transition: 0.7s !important;
   }
@@ -16272,6 +16269,23 @@ body .our h1:hover::after {
 body .title {
   height: 120px;
 }
+body #menu .tomber .fa {
+  float: right;
+  transition: 0.3s transform ease-in-out;
+}
+body #menu .tomber .collapsed .fa {
+  transform: rotate(90deg);
+}
+body #menu .tomber a {
+  margin-left: 10%;
+  text-align: center;
+  font-family: "courgette", cursive;
+  font-size: xx-large;
+  text-decoration: none;
+}
+body #menu .tomber a i {
+  margin: auto 5px;
+}
 body .menu {
   overflow: hidden;
 }
@@ -16348,13 +16362,17 @@ body .white1 .about .bg-margin {
   justify-content: center;
 }
 body .white1 .about .bg-margin .query {
-  width: 70%;
+  width: 800px;
+  height: 600px;
   margin: 50px 0;
   border-radius: 15px;
   display: flex;
   background-image: url("../../../public/images/book_table_bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+body .white1 .about .bg-margin .query .m-auto {
+  width: 600px;
 }
 body .white1 .about .bg-margin .query .bigger {
   font-size: x-large;
@@ -16364,6 +16382,11 @@ body .white1 .about .bg-margin .query form input, body .white1 .about .bg-margin
 }
 body .white1 .blog {
   width: 90%;
+}
+body .white1 .blog .columns2 .col-lg-6 .sous-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 body .white1 .blog .columns2 .col-lg-6 .text {
   width: 90%;
@@ -16388,6 +16411,7 @@ body .white1 .blog .columns2 .col-lg-6 .bg-img .alert {
 body .white1 .blog .columns2 .col-lg-6 .bg-img .alert span em {
   font-style: normal;
   font-size: larger;
+  font-weight: bolder;
 }
 body .white1 .blog .columns2 .col-lg-6 .bg-img1 {
   background-image: url("../../../public/images/blog_img1.jpg");
@@ -16395,15 +16419,15 @@ body .white1 .blog .columns2 .col-lg-6 .bg-img1 {
 body .white1 .blog .columns2 .col-lg-6 .bg-img2 {
   background-image: url("../../../public/images/blog_img2.jpg");
 }
-body #testimonials {
+body #testimonial {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../../../public/images/testimonials_background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
-body #testimonials .columns2 {
+body #testimonial .columns2 {
   margin: auto 5%;
 }
-body #testimonials .columns2 img {
+body #testimonial .columns2 img {
   height: 150px;
   border: solid white 4px;
   border-radius: 50%;

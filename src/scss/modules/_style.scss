@@ -87,7 +87,7 @@ body {
                                     font-size: 4vw;
                                     em {
                                         font-style: normal;
-                                        color: $danger
+                                        color: $danger;
                                     }
                                 }
 
@@ -164,7 +164,30 @@ body {
         // width: 100%;
         height: 120px;
     }
+<<<<<<< HEAD
     
+=======
+    #menu .tomber .fa {
+        float: right;
+        transition: .3s transform ease-in-out;
+    }
+    #menu .tomber .collapsed .fa {
+        transform: rotate(90deg);
+    }
+    
+    #menu .tomber {
+        a {
+            margin-left: 10%;
+            text-align: center;
+            font-family: $courgette;
+            font-size: xx-large;
+            text-decoration: none;
+            i {
+                margin: auto 5px;
+            }
+        }
+    }
+>>>>>>> florence
     .menu {
         overflow: hidden;
         .row {
@@ -277,7 +300,12 @@ body {
                 display: flex;
                 justify-content: center;
                 .query {
-                    width: 70%;
+                    .m-auto {
+                        width: 600px;
+                    }
+                    width: 800px;
+                    height: 600px;
+
                     margin: 50px 0;
                     border-radius: 15px;
                     display: flex;
@@ -303,6 +331,11 @@ body {
             width: 90%;
             .columns2 {
                 .col-lg-6 {
+                    .sous-col {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                    }
                     .text {
                         width: 90%;
                         margin-top: 50px;
@@ -327,6 +360,7 @@ body {
                                 em {
                                     font-style: normal;
                                     font-size: larger;
+                                    font-weight: bolder;
                                 }
                             }
                         }
@@ -343,7 +377,7 @@ body {
             }
         }
     }
-    #testimonials {
+    #testimonial {
         background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url("../../../public/images/testimonials_background.jpg");
         background-repeat: no-repeat;
         background-size: cover;
@@ -397,21 +431,21 @@ body {
 }
 
 // Animation bonus
-// @keyframes rouge {
-//     from {
-//        bottom: -170px;
-//     }
+@keyframes rouge {
+    from {
+       bottom: -170px;
+    }
     
-//     to {
-//         bottom: 0;
-//     }
-//   }
-//   @keyframes disappear {
-//     from {
-//        bottom: -20px;;
-//     }
+    to {
+        bottom: 0;
+    }
+  }
+  @keyframes disappear {
+    from {
+       bottom: -20px;;
+    }
   
-//     to {
-//       bottom: 20px;
-//     }
-//   }
+    to {
+      bottom: 20px;
+    }
+  }
