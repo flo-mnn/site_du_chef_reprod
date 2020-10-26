@@ -16144,12 +16144,24 @@ h3 {
     transition: 0.7s !important;
   }
 }
-.card-header .fa {
+#menu .tomber .fa {
+  float: right;
   transition: 0.3s transform ease-in-out;
 }
 
-.card-header .collapsed .fa {
+#menu .tomber .collapsed .fa {
   transform: rotate(90deg);
+}
+
+#menu .tomber a {
+  margin-left: 10%;
+  text-align: center;
+  font-family: "courgette", cursive;
+  font-size: xx-large;
+  text-decoration: none;
+}
+#menu .tomber a i {
+  margin: auto 5px;
 }
 
 body {
