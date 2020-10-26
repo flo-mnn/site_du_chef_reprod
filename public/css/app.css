@@ -16280,23 +16280,6 @@ body .our h1:hover::after {
 body .title {
   height: 120px;
 }
-body #menu .tomber .fa {
-  float: right;
-  transition: 0.3s transform ease-in-out;
-}
-body #menu .tomber .collapsed .fa {
-  transform: rotate(90deg);
-}
-body #menu .tomber a {
-  margin-left: 10%;
-  text-align: center;
-  font-family: "courgette", cursive;
-  font-size: xx-large;
-  text-decoration: none;
-}
-body #menu .tomber a i {
-  margin: auto 5px;
-}
 body .menu {
   overflow: hidden;
 }
