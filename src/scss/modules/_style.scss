@@ -397,21 +397,21 @@ body {
 }
 
 // Animation bonus
-// @keyframes rouge {
-//     from {
-//        bottom: -170px;
-//     }
+@keyframes rouge {
+    from {
+       bottom: -170px;
+    }
     
-//     to {
-//         bottom: 0;
-//     }
-//   }
-//   @keyframes disappear {
-//     from {
-//        bottom: -20px;;
-//     }
+    to {
+        bottom: 0;
+    }
+  }
+  @keyframes disappear {
+    from {
+       bottom: -20px;;
+    }
   
-//     to {
-//       bottom: 20px;
-//     }
-//   }
+    to {
+      bottom: 20px;
+    }
+  }
