@@ -16144,6 +16144,14 @@ h3 {
     transition: 0.7s !important;
   }
 }
+.card-header .fa {
+  transition: 0.3s transform ease-in-out;
+}
+
+.card-header .collapsed .fa {
+  transform: rotate(90deg);
+}
+
 body {
   font-family: "lato", sans-serif;
   margin: 0;
@@ -16439,23 +16447,6 @@ body footer .row p {
 }
 body footer .footer2 {
   height: 80px;
-}
-
-@keyframes rouge {
-  from {
-    bottom: -170px;
-  }
-  to {
-    bottom: 0;
-  }
-}
-@keyframes disappear {
-  from {
-    bottom: -20px;
-  }
-  to {
-    bottom: 20px;
-  }
 }
 
 /*# sourceMappingURL=app.css.map */
